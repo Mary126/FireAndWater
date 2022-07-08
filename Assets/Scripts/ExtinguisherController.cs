@@ -1,13 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using HTC.UnityPlugin.Utility;
 using HTC.UnityPlugin.Vive;
 using UnityEngine.EventSystems;
 using UnityEngine;
 
 public class ExtinguisherController : MonoBehaviour, IPointerClickHandler
 {
-    private Vector3 mOffset = Vector3.zero;
     public GameObject Water;
     public GameObject Hand;
     public bool IsDragging = false;
